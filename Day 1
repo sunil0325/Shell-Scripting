@@ -1,0 +1,38 @@
+We start with ASK Method; it means
+A stands for APP
+S stands for Shell: that helps to connect Kernel wit hardware.
+K stand for K(Kernel) + C program: it talks to Hardware.
+
+Now follow these steps. You can also watch video to follow these steps: ()
+
+Step:1 
+Create EC2 Instnace: You can watch video here (https://www.youtube.com/watch?v=_aH81T-Y7x0)
+
+Step:2 CreateVim file
+
+What is Vim file?
+A Vim file is a settings file used by the Vim text editor to store configurations like syntax highlighting rules1
+
+> Go in vim file type: vim fileName
+> Press i to insert
+> Write what ever you want to write
+> press Esc then write :wq to save or you write :qa to not save the file.
+Now you are able to create vim file and learnt how to enter and exit.
+
+Step: 3 How to write Bash Script
+
+The #!/bin/bash line at the start of a script specifies that the script should be run using the Bash shell.
+Now you can use print command that you can start with "echo"
+
+echo "Dev: Hello Friends"
+echo "Students: DevTheDevops, we shall comment"
+echo "Dev: Friends! then you must like"
+
+> Exit the file
+> Now give permission to your file by using "chmod 754 filename". If it get into green color color it means file has excusion rights.
+
+Step: 4 The last step
+
+Run this command to excute the file "./hello.sh" The . represent the location of the file.
+
+
